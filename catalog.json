@@ -1,0 +1,64 @@
+{
+  "models": [
+    {
+      "id": "qwen2.5-1.5b-instruct-q4_k_m",
+      "displayName": "Qwen2.5 1.5B Instruct",
+      "version": "q4_k_m",
+      "role": "any",
+      "rank": 1,
+      "url": "https://huggingface.co/Qwen/Qwen2.5-1.5B-Instruct-GGUF/resolve/main/qwen2.5-1.5b-instruct-q4_k_m.gguf",
+      "sha256": "6a1a2eb6d15622bf3c96857206351ba97e1af16c30d7a74ee38970e434e9407e",
+      "sizeBytes": 1117320736,
+      "contextTokens": 8192,
+      "minRamGb": 6,
+      "minVramGb": 0,
+      "license": "Apache-2.0",
+      "notes": "Small and fast. Reads documents quickly; on its own it gives basic summaries."
+    },
+    {
+      "id": "qwen2.5-7b-instruct-q4_k_m",
+      "displayName": "Qwen2.5 7B Instruct",
+      "version": "q4_k_m",
+      "role": "main",
+      "rank": 2,
+      "url": "https://huggingface.co/bartowski/Qwen2.5-7B-Instruct-GGUF/resolve/main/Qwen2.5-7B-Instruct-Q4_K_M.gguf",
+      "sha256": "65b8fcd92af6b4fefa935c625d1ac27ea29dcb6ee14589c55a8f115ceaaa1423",
+      "sizeBytes": 4683074240,
+      "contextTokens": 8192,
+      "minRamGb": 12,
+      "minVramGb": 0,
+      "license": "Apache-2.0",
+      "notes": "Good quality for medical summaries on a typical PC."
+    },
+    {
+      "id": "qwen2.5-14b-instruct-q4_k_m",
+      "displayName": "Qwen2.5 14B Instruct",
+      "version": "q4_k_m",
+      "role": "main",
+      "rank": 3,
+      "url": "https://huggingface.co/bartowski/Qwen2.5-14B-Instruct-GGUF/resolve/main/Qwen2.5-14B-Instruct-Q4_K_M.gguf",
+      "sha256": "e47ad95dad6ff848b431053b375adb5d39321290ea2c638682577dafca87c008",
+      "sizeBytes": 8988110976,
+      "contextTokens": 8192,
+      "minRamGb": 24,
+      "minVramGb": 10,
+      "license": "Apache-2.0",
+      "notes": "Higher quality. Offered when the PC has a graphics card with enough memory to run it at a usable speed."
+    },
+    {
+      "id": "qwen2.5-32b-instruct-q4_k_m",
+      "displayName": "Qwen2.5 32B Instruct",
+      "version": "q4_k_m",
+      "role": "main",
+      "rank": 4,
+      "url": "https://huggingface.co/bartowski/Qwen2.5-32B-Instruct-GGUF/resolve/main/Qwen2.5-32B-Instruct-Q4_K_M.gguf",
+      "sha256": "2e5f6daea180dbc59f65a40641e94d3973b5dbaa32b3c0acf54647fa874e519e",
+      "sizeBytes": 19851336576,
+      "contextTokens": 8192,
+      "minRamGb": 48,
+      "minVramGb": 20,
+      "license": "Apache-2.0",
+      "notes": "Best quality. Needs a workstation graphics card."
+    }
+  ]
+}
